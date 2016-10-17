@@ -4,7 +4,7 @@ public class project1 {
 	{
 		Scanner scanner = new Scanner(System.in);
 		String str=null;
-		str=scanner.next();
+		str=scanner.next();12
 		char myList[]=str.toCharArray();
 		int tag=judge(myList);
 		if(tag==0)
