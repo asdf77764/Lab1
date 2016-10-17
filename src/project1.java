@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//在B2修改提交
 public class project1 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
