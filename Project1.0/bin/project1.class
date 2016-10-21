@@ -1,34 +1,0 @@
- ˛∫æ   4 y  project1  java/lang/Object <init> ()V Code
-  	   LineNumberTable LocalVariableTable this 
-Lproject1; main ([Ljava/lang/String;)V  java/util/Scanner	    java/lang/System   in Ljava/io/InputStream;
-     (Ljava/io/InputStream;)V
-     next ()Ljava/lang/String;
-   " ! java/lang/String # $ toCharArray ()[C
-  & ' ( judge ([C)I	  * + , out Ljava/io/PrintStream;
- . 0 / java/io/PrintStream 1 2 println ([C)V
-  4 5  nextLine
-  7 8 9 judgeO ([C[C)I
-  ; < = simplify ([C[C)V
-  ? @ = 
-derivative B Error,no variable
- . D 1 E (Ljava/lang/String;)V args [Ljava/lang/String; scanner Ljava/util/Scanner; str Ljava/lang/String; myList [C tag I order str1 myList1 tag1 StackMapTable G M judgetag l C i k j
- ^ ` _ java/util/Arrays a b equals ([C[C)Z a d r o judgenum test test1 b c
-   m n o valueOf (I)Ljava/lang/String;
-   q r s charAt (I)C myList2 sum m 
-SourceFile project1.java !               /     *? ?    
-                    	      ?  	   ãª Y? ? LM+? M,? N-? %6? c? )-? -? Y? ? ::? 3:? :-? 66? '4s? -? :? (4d? -? >? ? )A? C? ? )A? C?    
-   ^            	  
- "  )  5  8  ?  F  N  S  \  b  e  n  t  w   ! ? $ ? &    \ 	   ? F G    Ä H I   ~ J K   t L M   n N O  5 J P I  8 G Q K  F 9 R M  N 1 S O  T   6 ˇ e 	 U    V    V  ˇ 
-  U    V   	 ' (    ?    <*4=9? 	0? z? 	a? Z? ?A? ?>? ?469? 
-0? -z? 
-a? Z? 
-A? +? 
-*? ?*?d? ? ?`469? ,0? %z? 
-a? Z? bA? [?? dz? 
-a? Z? @A? 99? 
-0? z? 
-a? Z? A? ?? ?? ?*æ°ˇ)? ??    
-   ^    *  +  , * . / 0 4 1 l 3 t 4 w 5 ~ 6 ? 8 ? : ? ; ? > ? @ ? B ? C ? I ? J  .	 M O Q    >    L M    W O   X Y  , ? Z O  4 ? [ Y  ~ | \ Y  T   + ? ? ? 
-? "? ? ?  	 8 9    ?    ??`? T    ? ? ?  	 @ =    ?     ?=*?`?N6? &6? -*4U?*æ°ˇ?-?d+U?*æ°ˇ?6? `-4+? T66? -4+4? ????6? $-4+4? ? l:*? pU? ???=?*?`?ù≤ )*? -?    
-   f    ?  ? 	 ?  ?  ?  ? ' ? / ? 9 ? ? ? H ? K ? Q ? [ ? ^ ? h ? n ? x ?  ? ? ? ? ? ? ? ? ? ? ? ? ?    p    ? L M     ? R M   ? c O  	 ? t M   - Z O    \ O  < i [ O  K N u O  N  Z O  k + X O    v K  T   $ ?  V? 
-? ? ? ?   w    x
