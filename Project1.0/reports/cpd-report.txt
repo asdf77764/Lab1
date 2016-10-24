@@ -1,0 +1,17 @@
+Found a 3 line (37 tokens) duplication in the following files: 
+Starting at line 49 of D:\lab4\Lab1-2\Project1.0\src\lab\lab\OurProject.java
+Starting at line 104 of D:\lab4\Lab1-2\Project1.0\src\lab\lab\OurProject.java
+
+        char tem = myList[i];
+        if ((tem <= '9' && tem >= '0') || (tem <= 'z' && tem >= 'a') || (tem <= 'Z' && tem >= 'A')
+            || tem == '+' || tem == '*') {
+=====================================================================
+Found a 5 line (27 tokens) duplication in the following files: 
+Starting at line 57 of D:\lab4\Lab1-2\Project1.0\src\lab\lab\OurProject.java
+Starting at line 62 of D:\lab4\Lab1-2\Project1.0\src\lab\lab\OurProject.java
+
+            if ((te <= 'z' && te >= 'a') || (te <= 'Z' && te >= 'A')) {
+              judgetag += 1;
+              break;
+            }
+          } else if ((tem <= 'z' && tem >= 'a') || (tem <= 'Z' && tem >= 'A')) {
